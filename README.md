@@ -13,7 +13,7 @@ This package contains two functions:
 Example:
 
   "happniess_data" is the dataFrame in which all predictors are included
-  1. hierarchical(happniess_data, happinessdata$happiness_score, "gender")
+  1. hierarchical(happiness_data, happinessdata$happiness_score, "gender")
 
   2. if there are more than one categorical variables -->
       hierarchical(dataFrame, DependentVariable, c("Categorical_var_1", "Categorical_var_2"))
@@ -28,7 +28,7 @@ Example:
   This function applies hierachical regression on a "list" of "dataFrame"s with all groups of predictors included in that       "list"
   
  Example:
-  1. group_hierarchical(list(happinessdata[1:3],happinessdata[4:5],happinessdata[6]), happinessdata$happiness_score, "gender")
+  1. group_hierarchical(list(happiness_data[1:3],happiness_data[4:5],happiness_data[6]), happiness_data$happiness_score, "gender")
 
   2. if there are more than one categorical variables -->
     group_hierarchical(list(groupDF1, groupDF2, groupDF3), DependentVariable, c("Categorical_var_1", "Categorical_var_2"))
