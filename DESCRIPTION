@@ -1,0 +1,10 @@
+Package: hierarchicalR
+Type: Package
+Title: Hierarchical Regression and Hierachical Regression in Sets
+Version: 0.1.0
+Author: Moein Razavi
+Maintainer: Moein Razavi <moeinrazavi@tamu.edu>
+Description: This package has two functions for automatically doing 1. hierarchical regression and 2. hierarchical regression in sets 
+imports:
+    dplyr,tibble
+LazyData: true
