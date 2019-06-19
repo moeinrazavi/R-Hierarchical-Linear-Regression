@@ -7,7 +7,7 @@ This package contains two functions:
 ``` 
  to install from GitHub, type the following code in R command line and run:
  
- devtools::install_github("mrf3137/R-Hierarchical_Linear_Regression")
+ devtools::install_github("mrf3137/R-Hierarchical-Linear-Regression")
 ```
 
 ## Help for function "hierarchical"
