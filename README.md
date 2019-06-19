@@ -13,7 +13,7 @@ This package contains two functions:
 Example:
 
   "happniess_data" is the dataFrame in which all predictors are included
-  1. hierarchical(happiness_data, happinessdata$happiness_score, "gender")
+  1. hierarchical(happiness_data, happiness_data$happiness_score, "gender")
 
   2. if there are more than one categorical variables -->
       hierarchical(dataFrame, DependentVariable, c("Categorical_var_1", "Categorical_var_2"))
