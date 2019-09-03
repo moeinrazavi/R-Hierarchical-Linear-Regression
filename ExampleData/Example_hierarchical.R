@@ -1,6 +1,7 @@
 library(dplyr)
 library(tibble)
 library(utils)
+library(hierarchicalR)
 
 happiness_data = read.csv("./happiness.csv")
 
