@@ -5,7 +5,10 @@ This package contains two functions:
 2. group_hierarchical: for automatic hierachical regression in sets (groups of predictors automatically entered for regression)
 
 ``` 
- to install from GitHub, type the following code in R command line and run:
+ to install from GitHub, type (copy/paste) the following lines of code in R command line and run:
+ 
+ install.packages("devtools")
+ library("devtools")
  
  devtools::install_github("mrf3137/R-Hierarchical-Linear-Regression")
 ```
